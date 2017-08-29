@@ -10,7 +10,7 @@ The project was created in order to allow one to create a physic engine and use 
 ----
 The follwing how to install the program on Linux based operating systems.
 ## Linux ##
-The program is installed with the following commands. This will create a makefile for which can be excuted by simply invoking the make command. see following.
+The program is installed with the following commands. This will create a makefile for which can be excuted by simply invoking the make command. see following. This will compile the PVEngine and all the executable. Where it will generate shader collection object for all the default shaders. All the headers, library, excutable and shared data will be installed onto the system.
 ```
 cmake .
 make
