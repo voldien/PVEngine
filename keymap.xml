@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keyconfig>
+	<!--
+		This is key mapper configuration file.
+		This allows for key to be mapped to specified
+		function by its function name.
+
+		List of all valid function name:
+
+		enableFog -> enable/disable fog
+		debugcamera -> enable/disable debug camera object.
+
+	-->
+
+
+	<!--	Set state of the program.	-->
+	<key mod="lctrl" name="return" value="fullscreen"/>
+	<key mod="lctrl" name="return" value="fullscreen"/>
+
+	<!-- Create and add object to current scene.	-->
+	<key name="1" value="createCube"/>
+	<key name="2" value="createSphere"/>
+	<key name="3" value="createPyramid"/>
+	<key name="4" value="createCylinder"/>
+
+	<!-- Swapping between scenes.	-->
+	<key mod="lctrl" name="1" value="scene0"/>
+	<key mod="lctrl" name="2" value="scene1"/>
+	<key mod="lctrl" name="3" value="scene2"/>
+	<key mod="lctrl" name="4" value="scene3"/>
+	<key mod="lctrl" name="5" value="scene4"/>
+	<key mod="lctrl" name="6" value="scene5"/>
+	<key mod="lctrl" name="7" value="scene6"/>
+	<key mod="lctrl" name="n" value="nextScene"/>
+	<key mod="lctrl" name="p" value="prevScene"/>
+
+	<!-- Set scene to specific state.	-->
+	<key mod="lshift" name="p" value="pause"/>
+
+	<!-- Change settings of current scene.	-->
+	<key name="§" value="enableRenderingDebug"/>
+	<key name="f1" value=""/>
+	<key name="f2" value=""/>
+	<key name="f3" value="debugcamera"/>
+	<key name="f4" value="showMenu"/>
+	<key name="f5" value="enablefog"/>
+	<key name="f6" value="nextCamera"/>
+	<key name="f7" value=""/>
+	<key name="f8" value=""/>
+	<key name="f9" value=""/>
+	<key name="f10" value=""/>
+	<key name="f11" value=""/>
+	<key name="f12" value=""/>
+
+</keyconfig>
